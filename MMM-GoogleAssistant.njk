@@ -1,0 +1,12 @@
+<div class = 'myContent' id ='googleAssistant'>
+{% if webResponse %}
+	<iframe id='googleWebResponse' src={{data.webView}}/>
+
+{% else %}
+	<span id='googleText'>
+		{{data.message}}
+	</span>
+
+{% endif %}
+
+</div>

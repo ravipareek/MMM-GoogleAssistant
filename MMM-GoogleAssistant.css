@@ -1,0 +1,15 @@
+#googleWebResponse{
+  height: 100px;
+  width: 100%;
+}
+
+.googleResponseContainer{
+	zoom: 0.2;
+	display: inline-block;
+}
+
+#googleAssistantIcon{
+	height: 50px;
+	width: 50px;
+	margin-left: 0px;
+}
